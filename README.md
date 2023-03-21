@@ -25,5 +25,9 @@ Unfortunately, with a sad heart, we made the hard decision to remove the extensi
 
 - Clone the repository to your local machine
 - On the root directory, run `yarn` command to install the dependencies listed in `package.json`
+- Cài thêm thư viện để tạo file .vsix:
+  npm install -g @vscode/vsce && vsce package
+- Sau khi tạo thanh công file .vsix thì cfn install bằng terminal: 
+ code --install-extension {PATH}/vscode-chatgpt-3.9.7-0.vsix
 - Within VS Code - run the project by simply hitting F5.
 - You could also create a 'vsix' package from the source-code and <a href="https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix">install manually</a>.
